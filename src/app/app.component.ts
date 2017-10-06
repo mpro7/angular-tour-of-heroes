@@ -8,6 +8,7 @@ import { HeroService } from './services/hero.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  
   title = 'Tour of Heroes';
 
   constructor() { }

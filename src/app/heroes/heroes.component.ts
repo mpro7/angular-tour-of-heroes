@@ -9,6 +9,7 @@ import { HeroService } from '../services/hero.service';
 })
 
 export class HeroesComponent implements OnInit {
+  
   heroes = Array<Hero>();
   selectedHero: Hero;
 
