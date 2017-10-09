@@ -20,7 +20,7 @@ export class HeroesComponent implements OnInit {
     private router: Router) { }
 
   getHeroes(): void {
-//this.heroService.getHeroes() WYWOŁAJ MI METODĘ  getHeroes Z SERWISUE heroService
+//this.heroService.getHeroes() WYWOŁAJ MI METODĘ  getHeroes Z SERWISU heroService
 //.then()  JAK OTRZYMASZ ODPOWIEDŹ TO
 // heroes => this.heroes = heroes (ODPOWIEDŹ PRZYPISZ MI DO ZMIENNEJ GLOBALNEJ W RAMACH KOMPONENTU O NAZWIE this.heroes)
 
